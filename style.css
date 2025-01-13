@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.input{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
