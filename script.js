@@ -28,7 +28,7 @@ function createGrids(grids){
         grid.addEventListener('mousemove', (event) => {
             let element = event.target;
             let opacity = Number(element.style.opacity);
-            element.style.backgroundColor = getRandomColor();
+            element.style.backgroundColor = "blue";
             element.style.opacity = opacity;
             opacity*=0.9;
             element.style.opacity = opacity;
